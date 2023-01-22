@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tea House</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                banner: '#1C1C1C',
+                para: '#777777',
+                footer: '#494949',
+              },
+              fontFamily: {
+                monrope: ['Manrope', 'sans-serif']
+              }
+            }
+          }
+        }
+      </script>
+</head>
+<body>
+    <!-- =================================
+            Header Part start
+    ================================= -->
+    <header class="w-full max-w-7xl mx-auto">
+        <div class="banner px-5 sm:px-0 sm:flex py-10 sm:py-20 items-center">
+            <div class="sm:w-1/2 text-center sm:text-left">
+                <h1 class="text-banner sm:pr-20 text-3xl sm:text-7xl leading-tight mb-5 font-extrabold font-monrope">It's good tea time at The Tea House</h1>
+                <p class="text-para font-monrope text-lg sm:pr-40 mb-5 font-medium">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="bg-gradient-to-l from-[#FF0000] to-[#FF8938] m-auto sm:m-0 text-white font-monrope flex items-center justify-between p-4">Explore More <img class="ml-2" src="images/arrow.png" alt=""></button>
+            </div>
+            <div class="sm:w-1/2 relative">
+                <img class="w-full" src="images/banner.png" alt="">
+                <div class="flex bg-white shadow-2xl z-10 items-center py-5 px-6 absolute bottom-0 left-0">
+                    <div>
+                        <img class="mr-3" src="images/star.svg" alt="">
+                    </div>
+                    <div>
+                        <h5 class="text-banner font-extrabold text-3xl">5.00</h5>
+                        <p class="text-para font-monrope">Trust Pilot Ratings</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- =================================
+            Header Part start
+    ================================= -->
+
+    <main>
+      <!-- =================================
+             Product part start
+      ================================= -->
+      <section>
+        <div class="container px-5 sm:px-0 w-full max-w-7xl mx-auto">
+          <h1 class="text-center text-banner font-monrope text-4xl mt-8 mb-5 font-extrabold">Our Featured Products</h1>
+          <p class="text-center text-para font-medium text-1xl sm:px-48 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <div class="flex flex-col px-5 sm:px-0 sm:flex-row mb-32 gap-6">
+            <div class="text-center bg-gradient-to-b from-[#F4F4F4] to-rgb(100 116 139 / 0); py-8 px-8">
+              <img class="m-auto" src="images/tea-1.png" alt="">
+              <h3 class="font-monrope text-banner text-2xl font-extrabold mt-7 mb-2">Milk Tea</h3>
+              <p class="text-para font-monrope">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="text-center bg-gradient-to-b from-[#F4F4F4] to-rgb(100 116 139 / 0); py-8 px-8">
+              <img class="m-auto" src="images/tea-2.png" alt="">
+              <h3 class="font-monrope text-banner text-2xl font-extrabold mt-7 mb-2">Black Tea</h3>
+              <p class="text-para font-monrope">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="text-center bg-gradient-to-b from-[#F4F4F4] to-rgb(100 116 139 / 0); py-8 px-8">
+              <img class="m-auto" src="images/tea-3.png" alt="">
+              <h3 class="font-monrope text-banner text-2xl font-extrabold mt-7 mb-2">Lemon Tea</h3>
+              <p class="text-para font-monrope">Creamer could be replaced by fresh milk</p>
+            </div>
+            <div class="text-center bg-gradient-to-b from-[#F4F4F4] to-rgb(100 116 139 / 0); py-8 px-8">
+              <img class="m-auto" src="images/tea-4.png" alt="">
+              <h3 class="font-monrope text-banner text-2xl font-extrabold mt-7 mb-2">Green Tea</h3>
+              <p class="text-para font-monrope">Creamer could be replaced by fresh milk</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================
+             Product part end
+      ================================= -->
+
+
+      <!-- =================================
+             Green tea part start
+      ================================= -->
+
+      <section>
+        <div class="container w-full max-w-7xl mx-auto">
+          <div class="flex px-5 sm:px-0 flex-col sm:flex-row gap-6 mb-32">
+            <div class="grid gap-6 sm:grid-cols-2 sm:grid-rows-3 sm:w-1/2">
+              <div class="box p-20 sm:p-2 bg-red-400"></div>
+              <div class="box row-span-2 p-2 bg-red-400">
+                <img class="m-auto" src="images/fresh-1.png" alt="">
+              </div>
+              <div class="box row-span-2 p-2 bg-red-400">
+                <img class="m-auto" src="images/fresh-2.png" alt="">
+              </div>
+              <div class="box p-20 sm:p-2 bg-red-400"></div>
+            </div>
+            <div class="sm:w-1/2">
+              <h3 class="text-banner text-center sm:text-left leading-10 font-monrope text-4xl mb-4 sm:pr-14 font-extrabold">Great Tea, Freshly Presented</h3>
+              <p class="text-para text-center sm:text-left pr-2 leading-7 mb-7 mt-5">The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
+              <h5 class="text-xl text-center sm:text-left font-extrabold text-banner mb-2">Unique Taste</h5>
+              <p class="text-para text-center mb-5 sm:mb-0 sm:text-left sm:pr-44 leading-7">A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
+              <h5 class="text-xl text-center sm:text-left font-extrabold text-banner mb-2">Premium Quality</h5>
+              <p class="text-para text-center sm:text-left sm:pr-44 leading-7">Premium Quality that makes tea more elegant and more durable when you use it.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================
+             Green tea part end
+      ================================= -->
+
+      <!-- =================================
+             Meet Client part start
+      ================================= -->
+      <section>
+        <div class="container sm:px-16 px-5 sm:py-20 mb-32 rounded-lg bg-gradient-to-l from-[#FF0000] to-[#FF8938] w-full max-w-7xl mx-auto">
+          <div class="flex flex-col sm:flex-row items-center">
+            <div class="sm:w-1/2">
+              <h2 class="text-white text-center sm:text-left font-monrope leading-tight text-5xl mt-8 mb-5 font-extrabold">Meet Our Super Clients</h2>
+              <p class="text-white text-center sm:text-left font-monrope leading-7 mb-10 sm:pr-32">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+              <div class="py-4 px-7 w-32 mx-auto bg-white sm:inline-block">
+                <a class="font-bold text-transparent bg-clip-text bg-gradient-to-l from-[#FF0000] to-[#FF8938]" href="#">Show All</a>
+              </div>
+            </div>
+            <div class="sm:w-1/2 relative">
+              <div class="w-full sm:w-96 ml-auto mt-8 sm:mt-0 pt-10 px-10 pb-8 box-border mb-10 relative opacity-40 bg-slate-50">
+                <img class="absolute -top-14 -left-14 translate-x-8 translate-y-8" src="images/client.png" alt="">
+                <p class="text-para font-monrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h4 class="font-bold font-monrope text-banner">Ilham Yuda</h4>
+                <span class="font-medium text-para">Businessman</span>
+              </div>
+              <div class="w-full sm:w-96 pt-10 z-20 px-10 pb-8 box-border absolute top-2/4 left-0 -translate-y-2/4 bg-slate-50">
+                <img class="absolute -top-14 -left-14 translate-x-8 translate-y-8" src="images/client.png" alt="">
+                <p class="text-para font-monrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h4 class="font-bold font-monrope text-banner">Ilham Yuda</h4>
+                <span class="font-medium text-para">Businessman</span>
+              </div>
+              <div class="w-full sm:w-96 ml-auto mb-8 sm:mb-0 pt-10 px-10 pb-8 box-border relative opacity-40 bg-slate-50">
+                <img class="absolute -top-14 -left-14 translate-x-8 translate-y-8" src="images/client.png" alt="">
+                <p class="text-para font-monrope mb-5">We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
+                <h4 class="font-bold font-monrope text-banner">Ilham Yuda</h4>
+                <span class="font-medium text-para">Businessman</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================
+             Meet Clinet part end
+      ================================= -->
+
+      <!-- =================================
+             News Event part start
+      ================================= -->
+      <section>
+        <div class="container px-5 sm:px-0 w-full max-w-7xl mx-auto">
+          <h1 class="text-center text-banner font-monrope text-4xl mt-8 mb-5 font-extrabold">Our Featured Products</h1>
+          <p class="text-center text-para font-medium text-1xl sm:px-48 mb-12">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
+          <div class="flex flex-col sm:flex-row gap-6 mb-32">
+            <div class="border p-5">
+              <img class="mb-5 w-full" src="images/news-1.jpg" alt="News">
+              <p class="font-monrope text-para font-medium mb-2">Feb 05, 2027</p>
+              <h3 class="font-monrope font-extrabold text-banner mb-2">Collecting 8 points for discount</h3>
+              <p class="font-monrope text-para pr-8 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="font-monrope font-bold text-banner" href="#">Learn More</a>
+            </div>
+            <div class="border p-5">
+              <img class="mb-5 w-full" src="images/news-2.jpg" alt="News">
+              <p class="font-monrope text-para font-medium mb-2">Feb 05, 2027</p>
+              <h3 class="font-monrope font-extrabold text-banner mb-2">Collecting 8 points for discount</h3>
+              <p class="font-monrope text-para pr-8 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="font-monrope font-bold text-banner" href="#">Learn More</a>
+            </div>
+            <div class="border p-5">
+              <img class="mb-5 w-full" src="images/news-3.jpg" alt="News">
+              <p class="font-monrope text-para font-medium mb-2">Feb 05, 2027</p>
+              <h3 class="font-monrope font-extrabold text-banner mb-2">Collecting 8 points for discount</h3>
+              <p class="font-monrope text-para pr-8 mb-3">There are many variations of passages of Lorem Ipsum available.</p>
+              <a class="font-monrope font-bold text-banner" href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- =================================
+             News Event part end
+      ================================= -->
+
+      <!-- =================================
+                Footer part start
+      ================================= -->
+
+      <section class="py-32 bg-orange-100">
+        <div class="container w-full max-w-7xl mx-auto">
+          <div class="flex flex-col sm:flex-row justify-between items-center">
+            <div>
+              <img src="images/cup.png" alt="footer">
+            </div>
+            <div>
+              <div class="flex flex-col sm:flex-row items-center gap-10">
+                <p class="text-xl mt-8 sm:mt-0 font-monrope font-medium text-footer">Ready to get strated?</p>
+                <button class="bg-gradient-to-l font-monrope font-bold text-xl py-4 px-6 from-[#FF0000] to-[#FF8938] text-white font-monrope">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="flex text-center sm:text-left flex-col sm:flex-row justify-between mt-24">
+            <div class="mb-8 sm:mb-0">
+              <h3 class="text-xl font-monrope font-semibold mb-5">Quick Links</h3>
+              <a class="block font-monrope text-para mb-3" href="#">Home</a>
+              <a class="block font-monrope text-para mb-3" href="#">About Us</a>
+              <a class="block font-monrope text-para mb-3" href="#">Insurance</a>
+              <a class="block font-monrope text-para" href="#">Privacy Policy</a>
+            </div>
+            <div class="mb-8 sm:mb-0">
+              <h3 class="text-xl font-monrope font-semibold mb-5">Our Service</h3>
+              <a class="block font-monrope text-para mb-3" href="#">Life Insurance</a>
+              <a class="block font-monrope text-para mb-3" href="#">Car Insurance</a>
+              <a class="block font-monrope text-para mb-3" href="#">Health Insurance</a>
+              <a class="block font-monrope text-para" href="#">House Insurance</a>
+            </div>
+            <div class="mb-8 sm:mb-0">
+              <h3 class="text-xl font-monrope font-semibold mb-5">Help</h3>
+              <a class="block font-monrope text-para mb-3" href="#">FAQs</a>
+              <a class="block font-monrope text-para mb-3" href="#">Contact Us</a>
+            </div>
+            <div>
+              <h3 class="text-2xl font-monrope font-semibold mb-10">Subscribe to our <br> newsletter</h3>
+              <form class="flex justify-center sm:justify-start" action="#">
+                <input class="bg-transparent text-para border-b-2 border-red-400 type="text" placeholder="Email Address">
+                <a class="w-8 h-8 rounded-full bg-red-600 relative" href="#"><img class="absolute top-2/4 left-2/4 -translate-x-1/2 -translate-y-1/2" src="images/footer-arrow.png" alt="footer"></a>
+              </form>
+              <div class="flex justify-center sm:justify-start gap-6 mt-12">
+                <a href="#"><img src="images/facebook.png" alt=""></a>
+                <a href="#"><img src="images/twitter.png" alt=""></a>
+                <a href="#"><img src="images/instragram.png" alt=""></a>
+              </div>
+            </div>
+          </div>
+          <p class="text-center mt-14 fonto-monrope text-para">&copy; 2027 UIDesign.to - All rights reserved.</p>
+        </div>
+      </section>
+
+      <!-- =================================
+                Footer part end
+      ================================= -->
+
+    </main>
+
+</body>
+</html>
